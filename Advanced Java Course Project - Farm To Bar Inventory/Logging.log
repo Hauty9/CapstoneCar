@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-21T19:53:33.569439Z</date>
+  <millis>1634846013569</millis>
+  <nanos>439000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-21T19:53:35.613883Z</date>
+  <millis>1634846015613</millis>
+  <nanos>883000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>WARNING</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Input Mismatched, A Letter Was Entered Instead Of A Number</message>
+  <exception>
+    <message>java.util.InputMismatchException</message>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>throwFor</method>
+      <line>939</line>
+    </frame>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>next</method>
+      <line>1594</line>
+    </frame>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>nextInt</method>
+      <line>2258</line>
+    </frame>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>nextInt</method>
+      <line>2212</line>
+    </frame>
+    <frame>
+      <class>Product_Choice</class>
+      <method>productChoice</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>Main</class>
+      <method>main</method>
+      <line>99</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2021-10-21T19:53:35.616212Z</date>
+  <millis>1634846015616</millis>
+  <nanos>212000</nanos>
+  <sequence>2</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-24T15:35:32.812589Z</date>
+  <millis>1635089732812</millis>
+  <nanos>589000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-24T15:35:38.807816Z</date>
+  <millis>1635089738807</millis>
+  <nanos>816000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>WARNING</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Input Mismatched, A Letter Was Entered Instead Of A Number</message>
+  <exception>
+    <message>java.util.InputMismatchException</message>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>throwFor</method>
+      <line>939</line>
+    </frame>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>next</method>
+      <line>1594</line>
+    </frame>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>nextInt</method>
+      <line>2258</line>
+    </frame>
+    <frame>
+      <class>java.util.Scanner</class>
+      <method>nextInt</method>
+      <line>2212</line>
+    </frame>
+    <frame>
+      <class>Product_Choice</class>
+      <method>productChoice</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>Main</class>
+      <method>main</method>
+      <line>99</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2021-10-24T15:35:38.812234Z</date>
+  <millis>1635089738812</millis>
+  <nanos>234000</nanos>
+  <sequence>2</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T18:16:50.210892Z</date>
+  <millis>1635445010210</millis>
+  <nanos>892000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T18:41:02.865508Z</date>
+  <millis>1635446462865</millis>
+  <nanos>508000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T18:44:45.871095Z</date>
+  <millis>1635446685871</millis>
+  <nanos>95000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T18:45:14.911759Z</date>
+  <millis>1635446714911</millis>
+  <nanos>759000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T19:10:22.019234Z</date>
+  <millis>1635448222019</millis>
+  <nanos>234000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:10:40.089978Z</date>
+  <millis>1635448240089</millis>
+  <nanos>978000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:11:08.999180Z</date>
+  <millis>1635448268999</millis>
+  <nanos>180000</nanos>
+  <sequence>2</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:14:11.963313Z</date>
+  <millis>1635448451963</millis>
+  <nanos>313000</nanos>
+  <sequence>3</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+<record>
+  <date>2021-10-28T19:14:11.964114Z</date>
+  <millis>1635448451964</millis>
+  <nanos>114000</nanos>
+  <sequence>4</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T19:15:14.503264Z</date>
+  <millis>1635448514503</millis>
+  <nanos>264000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:15:32.909072Z</date>
+  <millis>1635448532909</millis>
+  <nanos>72000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:15:43.068738Z</date>
+  <millis>1635448543068</millis>
+  <nanos>738000</nanos>
+  <sequence>2</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:20:29.817435Z</date>
+  <millis>1635448829817</millis>
+  <nanos>435000</nanos>
+  <sequence>3</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+<record>
+  <date>2021-10-28T19:20:29.819109Z</date>
+  <millis>1635448829819</millis>
+  <nanos>109000</nanos>
+  <sequence>4</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T19:20:39.807485Z</date>
+  <millis>1635448839807</millis>
+  <nanos>485000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:20:52.279242Z</date>
+  <millis>1635448852279</millis>
+  <nanos>242000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T19:21:26.274243Z</date>
+  <millis>1635448886274</millis>
+  <nanos>243000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:21:37.798232Z</date>
+  <millis>1635448897798</millis>
+  <nanos>232000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:21:44.734030Z</date>
+  <millis>1635448904734</millis>
+  <nanos>30000</nanos>
+  <sequence>2</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+<record>
+  <date>2021-10-28T19:21:44.734916Z</date>
+  <millis>1635448904734</millis>
+  <nanos>916000</nanos>
+  <sequence>3</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Ended</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-28T19:22:48.105828Z</date>
+  <millis>1635448968105</millis>
+  <nanos>828000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-28T19:22:59.671826Z</date>
+  <millis>1635448979671</millis>
+  <nanos>826000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-29T01:22:27.769065Z</date>
+  <millis>1635470547769</millis>
+  <nanos>65000</nanos>
+  <sequence>0</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
+<record>
+  <date>2021-10-29T01:22:39.122376Z</date>
+  <millis>1635470559122</millis>
+  <nanos>376000</nanos>
+  <sequence>1</sequence>
+  <logger>Product_Choice</logger>
+  <level>INFO</level>
+  <class>Product_Choice</class>
+  <method>productChoice</method>
+  <thread>1</thread>
+  <message>Product Choice Has Started</message>
+</record>
