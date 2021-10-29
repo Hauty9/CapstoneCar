@@ -36,7 +36,7 @@ public class Main {
 				new InputStreamReader(System.in));
 		
 		//Greeting/Login screen for employee's to log into to
-		System.out.println("***** Farm To Bar's Inventory System *****");
+		//System.out.println("***** Farm To Bar's Inventory System *****");
 		System.out.println();
 		System.out.println("Please Enter In Employee Name: ");
 		username = br.readLine();
