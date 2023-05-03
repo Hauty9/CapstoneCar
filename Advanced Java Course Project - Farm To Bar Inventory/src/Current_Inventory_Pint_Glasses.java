@@ -7,7 +7,9 @@ import java.sql.ResultSet;
 public class Current_Inventory_Pint_Glasses {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
-		//Start The Connection
+		
+		
+				//Start The Connection
 				Connection connection = null;
 				
 				try {
@@ -20,20 +22,25 @@ public class Current_Inventory_Pint_Glasses {
 					System.out.println();
 				}
 			
-				//Select statement to get Some data
+				//Select statement to get Data From Pint Glasses class
 				try {
 					PreparedStatement sql = connection.prepareStatement("select * From Pint_Glasses");
 					ResultSet rs = sql.executeQuery();
 					while(rs.next()) {
+						
+						//Strings to get info from MYSQL
+						String ID = rs.getString("ID");
 						String Inventory = rs.getString("Inventory");
 						String Price = rs.getString("Price");
+						System.out.println("******************************************************");
+						System.out.println("*                Pint Glass ID: " + ID +"                    *");
+						System.out.println("*                Pint Glass Inventory: " + Inventory+"            *");
+						System.out.println("*                Pint Galss Price: " + Price+"                *");
+					
+						System.out.println("******************************************************");
+					
 						
-				
-						System.out.println("Pint Glass Inventory:" + Inventory);
-						
-						System.out.println("Price Of Each Pint Glass:" + Price);
-						System.out.println();
-						
+						//Starting Product Choice
 						Product_Choice.productChoice(args);
 
 					}

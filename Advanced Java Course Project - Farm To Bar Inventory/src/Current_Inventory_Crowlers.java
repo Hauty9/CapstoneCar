@@ -20,22 +20,24 @@ public class Current_Inventory_Crowlers {
 					System.out.println();
 				}
 			
-				//Select statement to get Some data
+				//Select statement to get Data From Crowlers Table
 				try {
 					
 					PreparedStatement sql = connection.prepareStatement("select * From Crowlers");
 					ResultSet rs = sql.executeQuery();
 					while(rs.next()) {
+						
+						//Strings to get data from tble
+						String ID = rs.getString("ID");
 						String Inventory = rs.getString("Inventory");
 						String Price = rs.getString("Price");
-						
-				
-						System.out.println("Crowler Inventory:" + Inventory);
-						
-						System.out.println("Price Of Crowler Deposit:" + Price);
-						System.out.println();
-						
-						Current_Inventory_Pint_Glasses.main(args);
+						System.out.println("******************************************************");
+						System.out.println("*                Crowler ID: " + ID +"                       *");
+						System.out.println("*                Crowler Inventory: " + Inventory+"              *");
+						System.out.println("*                Price Of Crowler Deposit: " + Price+"        *");
+					
+						System.out.println("******************************************************");
+						Product_Choice.productChoice(args);
 
 					}
 				}catch (Exception e) {

@@ -24,22 +24,29 @@ public class Current_Inventory_Growlers {
 				System.out.println();
 			}
 		
-			//Select statement to get Some data
+			//Select statement to get data From Growlers Class
 			try {
 				
 				PreparedStatement sql = connection.prepareStatement("select * From Growlers");
 				ResultSet rs = sql.executeQuery();
 				while(rs.next()) {
+					
+					//Strings to get Information from Growlers Class
 					String Inventory = rs.getString("Inventory");
 					String Price = rs.getString("Price");
+					String ID = rs.getString("ID");
+					System.out.println("******************************************************");
+					System.out.println("*                Growler ID: " + ID +"                       *");
+					System.out.println("*                Growler Inventory: " + Inventory+"              *");
+					System.out.println("*                Price Of Growler Deposit: " + Price+"         *");
+				
+					System.out.println("******************************************************");
 					
-			
-					System.out.println("Growler Inventory:" + Inventory);
 					
-					System.out.println("Price Of Growler Deposit:" + Price);
-					System.out.println();
 					
-					Current_Inventory_Crowlers.main(args);
+					//Starting Product Choice Class
+					Product_Choice.productChoice(args);
+
 
 				}
 			}catch (Exception e) {
